@@ -26,6 +26,7 @@ public class MainActivity extends Activity implements OnClickListener {
         findViewById(R.id.btnSimpleToastWithImage).setOnClickListener(this);
         findViewById(R.id.btnCustomToast).setOnClickListener(this);
         findViewById(R.id.btnRunToastFromOtherThread).setOnClickListener(this);
+        //   toast.setDuration(Toast.LENGTH_SHORT); //设置时间
     }
 
     public void showToast() {
